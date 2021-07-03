@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #ffffff;
@@ -14,12 +17,17 @@
       background-attachment: fixed;
       background-size: cover;
     }
+
+    p.n {
+      font-family: 'Prompt', sans-serif;
+      font-size: 20px;
+    }
   </style>
 </head>
 
 <body>
   <!-- banner -->
-  <div class="bg-white flex justify-between max-w-screen-md mx-auto p-4 my-4 rounded-lg flex-shrink md:flex-shrink-0">
+  <div class="bg-white flex justify-between max-w-screen-md mx-auto p-4 my-4 rounded-lg ">
     <!-- header -->
     <div class="bg-white self-center">
       <P class="text-6xl">Resume</P>
@@ -32,18 +40,22 @@
     </div>
   </div>
   <!-- body -->
-  <div class="max-w-screen-md mx-auto bg-white rounded-lg p-20">
+  <div class="max-w-screen-md mx-auto bg-white rounded-lg px-20 pb-20 pt-16 ">
+    <!-- sub-header -->
+    <div class="flex justify-center">
+      <p class="font-semibold bg-red-400 mb-8 py-4 px-4 text-white rounded-lg text-4xl">My profile</p>
+    </div>
     <!-- my profile -->
-    <div class="shadow-xl p-4 border-2">
-      <!-- sub-header -->
-      <div class="flex">
-        <p class="font-semibold bg-red-400 mb-4 ml-4 py-1 px-4 text-white rounded-lg">My profile</p>
-      </div>
+    <div class="shadow-xl p-4 border-2 rounded-md">
       <!-- infomation -->
       <div class="flex">
         <img src="./pictures/0732-2.JPG" class="rounded-full w-36 h-36 mr-3 ">
-        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perspiciatis quod laboriosam voluptatibus
-          necessitatibus numquam exercitationem voluptates officia, omnis unde?</p>
+        <div class="flex-none mt-3">
+          <p class="n">ชื่อ: นายแทนหทัย คลังมาเจริญ</p>
+          <p class="n">ชื่อเล่น: ซลาซ่า</p>
+          <p class="n">งานอดิเรก: เล่นเกม ดูอนิเมะ ฟังเพลง</p>
+          <p class="n">ภาษาที่เขียนได้: C++</p>
+        </div>
       </div>
     </div>
   </div>
