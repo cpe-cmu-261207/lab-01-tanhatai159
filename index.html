@@ -27,34 +27,36 @@
 
 <body>
   <!-- banner -->
-  <div class="bg-white flex justify-between max-w-screen-md mx-auto p-4 my-4 rounded-lg ">
-    <!-- header -->
-    <div class="bg-white self-center">
-      <P class="text-6xl">Resume</P>
-    </div>
+  <div class="bg-white flex justify-center max-w-screen-md mx-auto p-4 my-4 rounded-lg ">
     <!-- navbar -->
-    <div class="flex space-x-10 self-center mt-4">
-      <p class="text-lg font-mono font-semibold">Home</p>
-      <p class="text-lg font-mono font-semibold">Expeirence</p>
-      <p class="text-lg font-mono font-semibold">Contact</p>
+    <div class="flex space-x-10 ">
+      <a href="./index.html"><button
+          class="text-lg font-mono font-semibold text-red-600 py-2 px-4 border border-red-400 rounded-lg hover:text-white hover:bg-red-600">Home</button></a>
+      <a href="./experience.html"><button
+          class="text-lg font-mono font-semibold text-red-600 py-2 px-4 border border-red-400 rounded-lg hover:text-white hover:bg-red-600">Expeirence</button></a>
+      <a href="./contact.html"><button
+          class="text-lg font-mono font-semibold text-red-600 py-2 px-4 border border-red-400 rounded-lg hover:text-white hover:bg-red-600">Contact</button></a>
     </div>
   </div>
   <!-- body -->
-  <div class="max-w-screen-md mx-auto bg-white rounded-lg px-20 pb-20 pt-16 ">
+  <div class="max-w-screen-md mx-auto bg-white rounded-lg px-20 pb-20 pt-10 ">
     <!-- sub-header -->
     <div class="flex justify-center">
-      <p class="font-semibold bg-red-400 mb-8 py-4 px-4 text-white rounded-lg text-4xl">My profile</p>
+      <p class="font-semibold bg-red-500 mb-8 py-4 px-4 text-white rounded-lg text-4xl">My profile</p>
     </div>
     <!-- my profile -->
     <div class="shadow-xl p-4 border-2 rounded-md">
       <!-- infomation -->
-      <div class="flex">
-        <img src="./pictures/0732-2.JPG" class="rounded-full w-36 h-36 mr-3 ">
+      <div class="flex justify-evenly">
+        <div class="self-center">
+          <img src="./pictures/0732-2.JPG" class="rounded-full w-36 h-36 ">
+        </div>
         <div class="flex-none mt-3">
-          <p class="n">ชื่อ: นายแทนหทัย คลังมาเจริญ</p>
-          <p class="n">ชื่อเล่น: ซลาซ่า</p>
-          <p class="n">งานอดิเรก: เล่นเกม ดูอนิเมะ ฟังเพลง</p>
-          <p class="n">ภาษาที่เขียนได้: C++</p>
+          <p class="n">ชื่อ: <span style="color:#585858;">นายแทนหทัย คลังมาเจริญ</span></p>
+          <p class="n">ชื่อเล่น: <span style="color:#585858;">ซลาซ่า</span></p>
+          <p class="n">งานอดิเรก: <span style="color:#585858;">เล่นเกม ดูอนิเมะ ฟังเพลง</span></p>
+          <p class="n">ภาษาที่เขียนได้: <span style="color:#585858;">C++</span></p>
+          <p class="n">จบจากโรงเรียน: <span style="color:#585858;">ยุพราชวิทยาลัย</span></p>
         </div>
       </div>
     </div>
